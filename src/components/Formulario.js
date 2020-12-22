@@ -69,11 +69,9 @@ const Formulario = (props) => {
 
   const updateUsuario = (e) => {
     e.preventDefault();
-    // console.log("CC", editUsr);
+
     const [{ id: editId, email, password, direccion, ciudad, rol }] = editUsr;
-    // const edited = usuarios.map((usr) => usr.id === editId && { newObject });
-    // const [{ id, email, password, direccion, ciudad, rol }] = edited;
-    // console.log("Toscoo", edited);
+
     const newData = usuarios.map((obj) => {
       if (obj.id === editId)
         return Object.assign({}, obj, {
