@@ -1,0 +1,12 @@
+.App {
+  color: #000000;
+  background-image: linear-gradient(
+    to right top,
+    #798699,
+    #6ca3b5,
+    #6bc0b8,
+    #97d8a5,
+    #e3e78f
+  );
+  height: 100vh;
+}
